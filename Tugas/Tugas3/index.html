@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Sederhana</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Formulir Pendaftaran</h2>
+            <p>Silakan isi formulir di bawah ini untuk mendaftar.</p>
+            <form action="#" method="POST">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label>Jenis Kelamin:</label>
+                <input type="radio" id="male" name="gender" value="Laki-laki">
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="female" name="gender" value="Perempuan">
+                <label for="female">Perempuan</label>
+
+                <label>Hobi:</label>
+                <input type="checkbox" id="reading" name="hobby" value="Buku">
+                <label for="reading">Buku</label>
+                <input type="checkbox" id="sports" name="hobby" value="Olahraga">
+                <label for="sports">Olahraga</label>
+                <input type="checkbox" id="music" name="hobby" value="Musik">
+                <label for="music">Musik</label>
+
+                <label for="city">Pilih Kota:</label>
+                <select id="city" name="city">
+                    <option value="jakarta">Jakarta</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="surabaya">Surabaya</option>
+                </select>
+
+                <label for="notes">Pesan Tambahan:</label>
+                <textarea id="notes" name="notes" rows="3"></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Bagian sidebar dapat berisi teks tambahan, iklan, atau informasi lainnya.</p>
+        </aside>
+    </main>
+</body>
+</html>
