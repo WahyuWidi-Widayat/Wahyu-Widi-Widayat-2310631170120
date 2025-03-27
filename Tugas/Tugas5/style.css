@@ -1,0 +1,22 @@
+.cek_nilai_mutu {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+input, button {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #009557;
+}
